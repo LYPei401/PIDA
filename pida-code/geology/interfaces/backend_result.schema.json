@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pida.example/schemas/inversion-backend-result-v1.json",
+  "title": "PIDA external inversion backend result",
+  "type": "object",
+  "required": ["schema", "schema_version", "status", "metrics"],
+  "properties": {
+    "schema": {"const": "pida.inversion-backend-result"},
+    "schema_version": {"const": 1},
+    "status": {"enum": ["ok", "failed"]},
+    "checkpoint": {"type": ["string", "null"]},
+    "prediction": {"type": ["string", "null"]},
+    "metrics": {
+      "type": "object",
+      "properties": {
+        "ssim": {"type": "number"},
+        "mae": {"type": "number"},
+        "mse": {"type": "number"},
+        "rmse": {"type": "number"}
+      }
+    },
+    "message": {"type": "string"}
+  }
+}

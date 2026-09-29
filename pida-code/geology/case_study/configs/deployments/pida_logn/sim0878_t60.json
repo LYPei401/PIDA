@@ -1,0 +1,9 @@
+{
+  "method": "pida_logn",
+  "target": "sim0878_t60",
+  "monitoring_range": {"start": 88, "end": 237},
+  "source_indices": [2, 3, 4, 5],
+  "selected_receiver_count": 2,
+  "reference_ssim": 0.9944448471069336,
+  "deployment_status": "user_confirmed_reference_configuration"
+}

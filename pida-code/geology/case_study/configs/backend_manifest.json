@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "backend": "external",
+  "model_family": "InversionNet",
+  "included_source": false,
+  "included_checkpoint": false,
+  "included_geological_data": false,
+  "request_schema": "pida.inversion-backend-request",
+  "result_schema": "pida.inversion-backend-result",
+  "request_schema_file": "../../interfaces/backend_request.schema.json",
+  "result_schema_file": "../../interfaces/backend_result.schema.json",
+  "target": "sim0878_t60",
+  "deployment": "deployments/pida_one/sim0878_t60.json",
+  "note": "Provide a separately obtained checkpoint, data file, and backend command."
+}

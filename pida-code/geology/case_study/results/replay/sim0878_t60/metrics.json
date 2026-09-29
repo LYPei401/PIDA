@@ -1,0 +1,49 @@
+{
+  "status": "historical_result",
+  "evidence_only": true,
+  "target": "sim0878_t60",
+  "model_family": "InversionNet",
+  "implementation_provenance": "OpenFWI-derived external implementation; source and checkpoint are not distributed",
+  "device": "cpu",
+  "torch_version": "2.0.1+cu117",
+  "numpy_version": "1.24.4",
+  "checkpoint": null,
+  "case_data": null,
+  "output_dir": "case_study/results/replay/sim0878_t60",
+  "ssim": 0.9683935642242432,
+  "rmse": 66.79695892333984,
+  "binary_evidence_distributed": false,
+  "pida_input": {
+    "path": null,
+    "shape": [
+      2,
+      1251,
+      18
+    ],
+    "source_indices": [
+      2,
+      5
+    ],
+    "receiver_indices": [
+      22,
+      24,
+      26,
+      28,
+      30,
+      32,
+      35,
+      37,
+      39,
+      41,
+      43,
+      45,
+      48,
+      50,
+      52,
+      54,
+      56,
+      59
+    ],
+    "normalization": "log transform followed by CO2 min-max normalization to [-1, 1]"
+  }
+}

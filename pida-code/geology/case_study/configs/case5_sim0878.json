@@ -1,0 +1,15 @@
+{
+  "case_id": "sim0878",
+  "paper_role": "Case 5 geological case study",
+  "label_range": [951, 2546],
+  "times": {
+    "t60": {
+      "target": "sim0878_t60",
+      "predicted_range": [88, 237],
+      "pida_one": {"sources": 2, "receivers": 18, "ssim": 0.9687761664390564},
+      "pida_logn": {"sources": 4, "receivers": 2, "ssim": 0.9944448471069336},
+      "full": {"sources": 9, "receivers": 101, "ssim": 0.9706763029098511}
+    }
+  },
+  "metric_tolerances": {"ssim": 0.0001, "mae": 0.0001, "mse": 0.0001}
+}

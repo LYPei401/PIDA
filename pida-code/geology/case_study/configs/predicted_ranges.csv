@@ -1,0 +1,2 @@
+sample_index,width_iou,pred_left,pred_right,gt_left,gt_right
+sim0878_t60,0.903614458,88,237,87,252

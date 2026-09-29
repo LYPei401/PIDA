@@ -1,0 +1,14 @@
+{
+  "device": "cpu",
+  "output_dir": "case_study/results/replay",
+  "results": [
+    {
+      "metrics_path": "case_study/results/replay/sim0878_t60/metrics.json",
+      "rmse": 66.79695892333984,
+      "ssim": 0.9683935642242432,
+      "target": "sim0878_t60"
+    }
+  ],
+  "status": "passed",
+  "target_count": 1
+}
